@@ -11,10 +11,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="less">
 
-  $background: #ccc;
-  body {
-    background: $background;
-  }
+  
 </style>
