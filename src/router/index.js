@@ -1,6 +1,6 @@
 import App from '../App'
 
-const helloworld = r => require.ensure([], () => r(require('../components/HelloWorld')), 'helloworld')
+const helloworld = r => require.ensure([], () => r(require('../views/counter/list')), 'helloworld')
 
 export default [{
 	path: '/',
